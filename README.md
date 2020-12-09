@@ -218,7 +218,8 @@ A dashboard de logs de apache, que registra os acessos a um servidor web é muit
 
 ---
 **Screenshots**:
-![](images/)
+![](images/passo7a.png)
+![](images/passo7b.png)
 
 ### 8) Colocando configurações de segurança para acesso ao servidor Elasticsearch e Kibana.
 
@@ -239,7 +240,7 @@ vagrant@elk:~$ echo 'discovery.type: single-node' | sudo tee -a /etc/elasticsear
 
 ---
 **Screenshots**:
-![](images/)
+![](images/passo8.png)
 
 ### 9) Configurando as senhas internas para o serviço do elasticsearch e kibana.
 
@@ -266,7 +267,7 @@ sudo systemctl status kibana.service
 
 ---
 **Screenshots**:
-![](images/)
+![](images/passo9.png)
 
 ### 10) Vamos entrar pelo browser e verá que agora é necessário ter login.
 
@@ -274,20 +275,20 @@ Entrar com o usuário “elastic” e senha “password” conforme você defini
 
 ---
 **Screenshots**:
-![](images/)
+![](images/passo10.png)
 
 ### 11) Criar um usuário para você acessar o elasticsearch. Vai em “Security / Users” e clica no botão Create User.
 
 ---
 **Screenshots**:
-![](images/)
+![](images/passo11.png)
 
 
 ### 12) Pronto, é só dar logout e entrar com usario csc05 com senha password daqui pra frente.
 
 ---
 **Screenshots**:
-![](images/)
+![](images/passo12.png)
 
 ## Capturando dados de autenticação de linux
 
