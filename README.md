@@ -436,7 +436,7 @@ Com isso, todos os 16 campos de cada evento do auth.log são exportados automati
 
 ---
 **Screenshots**:
-![](images/18)
+![](images/18.png)
 
 
 ### 19) Sucesso na aplicação auth.
