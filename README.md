@@ -9,7 +9,7 @@
     - Raphael de Vasconcelos Nascimento
 - **Data:** 11/12/2020
 
-Este relatório também pode ser conferido online (em formato Markdown) pela URL: [Laboratório 6: Elasticsearch](...)
+Este relatório também pode ser conferido online (em formato Markdown) pela URL: [Laboratório 6: Elasticsearch](https://github.com/gitoso/csc-05-lab6-equipe)
 
 ---
 
