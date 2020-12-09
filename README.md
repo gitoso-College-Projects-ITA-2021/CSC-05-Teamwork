@@ -322,7 +322,8 @@ output {
 
 ---
 **Screenshots**:
-![](images/)
+![](images/13a)
+![](images/13b)
 
 
 ### 14) Ingerir dados de auth.log, o log das autenticação “sudo” e “ssh” do Linux
@@ -337,7 +338,7 @@ vagrant@elk:~$ sudo tail /var/log/auth.log
 
 ---
 **Screenshots**:
-![](images/)
+![](images/14)
 
 
 ### 15) Para aprender como construir esses pipelines no logstash, existe uma farta documentação de plug-ins, com exemplos de configuração no site elasticsearch.
@@ -395,7 +396,11 @@ vagrant@elk:~$ tail /var/log/logstash/logstash-plain.log
 ```
 ---
 **Screenshots**:
-![](images/)
+![](images/15a)
+![](images/15c)
+![](images/15d)
+![](images/15e)
+![](images/15f)
 
 
 ### 16) Verificar que os dados estão sendo enviados para o Elasticsearch.
@@ -405,7 +410,7 @@ No ambiente Kibana, tem uma ferramenta que permite questionar vários aspectos d
 
 ---
 **Screenshots**:
-![](images/)
+![](images/16)
 
 
 ### 17) Criar um index pattern.
@@ -420,14 +425,18 @@ Com isso, todos os 16 campos de cada evento do auth.log são exportados automati
 
 ---
 **Screenshots**:
-![](images/)
+![](images/17a)
+![](images/17b)
+![](images/17c)
+![](images/17d)
+
 
 
 ### 18) Voltar a Home no Kibana e depois no menu, busca KIBANA – DISCOVER. Dessa vez tem uma opção a mais de “index pattern” chamada logstash-*.
 
 ---
 **Screenshots**:
-![](images/)
+![](images/18)
 
 
 ### 19) Sucesso na aplicação auth.
