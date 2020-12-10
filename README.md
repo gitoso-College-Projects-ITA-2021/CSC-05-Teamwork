@@ -613,7 +613,8 @@ tail -f /var/log/logstash/logstash-plain.log
 
 ---
 **Screenshots**:
-![](images/)
+![](images/25a.png)
+![](images/25b.png)
 
 
 ### 26) Verifique se apareceu o índice no Kibana, em Dev Tools
@@ -624,7 +625,7 @@ GET _cat/indices
 
 ---
 **Screenshots**:
-![](images/)
+![](images/26.png)
 
 
 ### 27) Em seguida, crie o index pattern com winlogbeat*
@@ -633,7 +634,9 @@ Se tiver dado tudo certo, você conseguirá acessar as telas. Onde 258 campos fo
 
 ---
 **Screenshots**:
-![](images/)
+![](images/27a.png)
+![](images/27b.png)
+![](images/27c.png)
 
 
 ### 28) Elaboração de visualizações com os dados
@@ -658,7 +661,9 @@ Vamos montar uma visualização com esses dados. Clicar em Kibana / Visualizatio
 
 ---
 **Screenshots**:
-![](images/)
+![](images/28a.png)
+![](images/28b.png)
+![](images/28c.png)
 
 
 ### 29) A próxima visualização vai focar nos processos menos frequentemente executados. Que podem indicar um malware malicioso sendo executado. Para tanto, vá até a janela “Discover” e filtre por event_id : 1. O event_id número 1 é do Sysmon trata-se do “Process Create”, ou seja, um registro quando um programa é executado.
@@ -698,8 +703,10 @@ Salva essa visualização com o nome “[Windows] Process Hierarchy by User”
 
 ---
 **Screenshots**:
-![](images/)
-
+![](images/29a.png)
+![](images/29b.png)
+![](images/29c.png)
+![](images/29d.png)
 
 ### 30) Combinando tudo no final, em um único dashboard.
 
@@ -707,5 +714,5 @@ Com as 3 visualizações salvas, montar um dashboard é bem tranquilo. Basta ace
 
 ---
 **Screenshots**:
-![](images/)
+![](images/30.png)
 
