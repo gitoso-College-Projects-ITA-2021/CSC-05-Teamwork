@@ -445,7 +445,7 @@ Seria possível segmentar as mensagens de auth.log para obter mais informações
 
 ---
 **Screenshots**:
-![](images/)
+![](images/19.png)
 
 ## Capturando dados de eventos de sistema do windows
 
@@ -457,14 +457,14 @@ user@suamaquina:~$ vagrant up winelk
 
 ---
 **Screenshots**:
-![](images/)
+![](images/20.png)
 
 
 ### 21) Acessar a maquina Windows remotamente (no meu caso via túnel ssh) com ssh -L 3389:10.16.2.20:3389 cesar@192.168.15.93
 
 ---
 **Screenshots**:
-![](images/)
+![](images/21.png)
 
 
 ### 22) Precisamos baixar os programas necessários, vamos iniciar pelo Sysmon.
@@ -491,7 +491,8 @@ Descompactar o arquivo zippado do sysmon.zip de c:\windows\temp. Copia o arquivo
 ```
 ---
 **Screenshots**:
-![](images/)
+![](images/22a.png)
+![](images/22b.png)
 
 
 ### 23) Instalação do winlogbeats.
@@ -538,7 +539,8 @@ ping 10.16.2.25
 
 ---
 **Screenshots**:
-![](images/)
+![](images/23a.png)
+![](images/23b.png)
 
 
 ### 24) Instalar o winlogbeat como serviço no Windows
@@ -558,7 +560,8 @@ Start-Service winlogbeat
 
 ---
 **Screenshots**:
-![](images/)
+![](images/24a.png)
+![](images/24b.png)
 
 
 ### 25) Finalizar a configuração para receber os dados via LOGSTASH
